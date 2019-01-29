@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/vue.min.js"></script>
+    <script type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/bootstrap/js/npm.js"></script>
+    <link type="text/css" href="/bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+<div id="div1">
+    {{ bcbc }}
+    <p>{{ bcbc }}</p>
+    <p>{{ bcbc }}</p>
+</div>
+<script type="text/javascript">
+    new Vue({
+        el:'#div1',
+        data:{
+            bcbc:123232123
+        }
+    })
+</script>
+</body>
+</html>
